@@ -20,6 +20,13 @@ p{
   font-size: 20px;
 }
 
+.flex-c{
+  display: flex;
+  flex-direction: column;
+}
+.mr-24{
+  margin-right: 24px;
+}
 
 .header_1 {
   display: flex;
@@ -136,11 +143,32 @@ p{
       margin-right: 24px;
       }
     }
-  
-
-  
 }
 
+.otherwork{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#000;
+
+  .imagepost{
+    .ip01{
+      display: flex;
+
+    }
+  }
+}
+
+.contact{
+  background-color: #000;
+  color:#fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
 
 .footer {
   height: 200px;
