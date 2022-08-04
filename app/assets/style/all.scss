@@ -1,23 +1,148 @@
-$color: #00cc99;
+@import 'reset';
+@import url('http://fonts.cdnfonts.com/css/roboto');
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
+$color: #00cc99;
+.img{
+  vertical-align: middle;
 }
+
+h2{
+  font-size: 64px;
+
+}
+h3{
+  font-size: 24px;
+  font-family: 'Roboto Black' , sans-serif;
+  font-weight: bold;
+
+}
+p{
+  font-size: 20px;
+}
+
+
+.header_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 958px;
+  background-image: url(../images/banner.png);
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  h3{
+    // color: #fff;
+    // font-size: 24px;
+    // font-family: 'Roboto Black' , sans-serif;
+    // font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    line-height: 1.5;
+  }
+  h1{
+    // color: #fff;
+    font-family: 'Roboto Black', sans-serif;
+    font-weight: black;
+    font-style: italic;
+    font-size: 80px;
+    text-align: left;
+    margin-bottom: 32px;
+    // font-family: 'Roboto', Black Italic;
+  }
+  .icongroup {
+    display: flex;
+    margin-top: 40px;
+    li {
+      margin-right: 16px;
+    }
+  }
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Roboto Black', sans-serif;
+  font-weight: black;
+  font-style: italic;
+  text-align: center;
+
+  .pinfor{
+    h2{
+      // font-size: 64px;
+      margin-top: 56px;
+      margin-bottom: 40px;
+    }
+    .perimg{
+      margin-bottom: 20px;
+    }
+    .blackli{
+      font-size: 24px;
+      line-height: 1.5;
+    }
+  }
+.perbox{
+  padding-top: 28px;
+  padding-bottom: 56px;
+  border-top: 1px solid #000;
+  width: 384px;
+  li::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: #891818;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+}  
+}
+
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Roboto Black', sans-serif;
+  font-weight: black;
+  font-style: italic;
+  text-align: center;
+  h2{
+    padding-top: 56px;
+    margin-bottom: 12px;
+  }
+  ul{
+    margin-top: 32px;
+    margin-bottom: 68px;
+    li{
+    line-height: 1.5;
+    }
+  }
+  
+  .brand_img1{
+    margin-bottom: 40px;
+  }
+  .b_img {
+    
+    display: flex;
+    justify-content: center;
+    
+    .b_img2 {
+      margin-right: 24px;
+      }
+    }
+  
+
+  
+}
+
 
 .footer {
   height: 200px;
   background-color: #00cc99;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
 }
