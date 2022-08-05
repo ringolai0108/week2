@@ -1,100 +1,135 @@
 @import 'reset';
-@import url('http://fonts.cdnfonts.com/css/roboto');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&family=Roboto:ital,wght@0,500;1,500;1,700;1,900&display=swap');
 $color: #00cc99;
 .img{
   vertical-align: middle;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
 h2{
   font-size: 64px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 84px;
 
 }
-h3{
+h3, .bold-i24{
   font-size: 24px;
-  font-family: 'Roboto Black' , sans-serif;
-  font-weight: bold;
+  font-weight: 700;
+  font-style: italic;
 
 }
-p{
+
+.m-i24{
+  font-size: 24px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.m-i20{
   font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.fsi{
+  font-style: italic;
+}
+.mt-16{
+  margin-top: 16px;
 }
 
 .flex-c{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .mr-24{
   margin-right: 24px;
 }
+.lh32{
+  line-height: 32px;
+}
+.mb-4{
+  margin-bottom: 4px;
+}
 
+.mt8mb24{
+  margin-top: 8px;
+  margin-bottom: 24px;
+  line-height: 36px;
+}
+
+.lh36{
+  line-height: 36px;
+}
 .header_1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 958px;
   background-image: url(../images/banner.png);
   background-size: cover;
   background-position: center center;
   color: #fff;
+  padding-top: 308px;
+  padding-bottom: 308px;
   h3{
-    // color: #fff;
-    // font-size: 24px;
-    // font-family: 'Roboto Black' , sans-serif;
-    // font-weight: bold;
-    font-style: italic;
+    
     text-align: left;
-    line-height: 1.5;
+    // line-height: 1.5;
   }
   h1{
-    // color: #fff;
-    font-family: 'Roboto Black', sans-serif;
-    font-weight: black;
+    font-weight: 900;
     font-style: italic;
     font-size: 80px;
     text-align: left;
     margin-bottom: 32px;
-    // font-family: 'Roboto', Black Italic;
+    line-height: 106px;
   }
   .icongroup {
     display: flex;
     margin-top: 40px;
-    li {
+    a{
+      height: 60px;
+    
+    img {
       margin-right: 16px;
     }
+  }
   }
 }
 
 .profile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
   background-color: #fff;
   color: #000;
-  font-family: 'Roboto Black', sans-serif;
-  font-weight: black;
-  font-style: italic;
   text-align: center;
 
   .pinfor{
     h2{
-      // font-size: 64px;
       margin-top: 56px;
       margin-bottom: 40px;
     }
     .perimg{
       margin-bottom: 20px;
     }
-    .blackli{
-      font-size: 24px;
-      line-height: 1.5;
+    li{
+      // line-height: 1.5;
     }
   }
 .perbox{
-  padding-top: 28px;
+  // padding-top: 28px;
   padding-bottom: 56px;
   border-top: 1px solid #000;
   width: 384px;
+  
   li::before {
     content: "";
     display: inline-block;
@@ -103,6 +138,9 @@ p{
     background: #891818;
     border-radius: 50%;
     margin-right: 16px;
+  }
+  li{
+    margin-top: 28px;
   }
 }  
 }
@@ -115,7 +153,6 @@ p{
   align-items: center;
   background-color: #000;
   color: #fff;
-  font-family: 'Roboto Black', sans-serif;
   font-weight: black;
   font-style: italic;
   text-align: center;
@@ -127,6 +164,7 @@ p{
     margin-top: 32px;
     margin-bottom: 68px;
     li{
+    
     line-height: 1.5;
     }
   }
@@ -134,10 +172,11 @@ p{
   .brand_img1{
     margin-bottom: 40px;
   }
-  .b_img {
+  .b_img23 {
     
     display: flex;
     justify-content: center;
+    margin-bottom: 160px;
     
     .b_img2 {
       margin-right: 24px;
@@ -151,10 +190,26 @@ p{
   justify-content: center;
   align-items: center;
   color:#000;
+  padding-bottom: 96px;
+  h2{
+    margin-top: 56px;
+  }
+  ul{
+    margin-top: 16px;
+    margin-bottom: 56px;
+    li{
+      line-height: 1.5;
+    }
+  }
 
   .imagepost{
     .ip01{
       display: flex;
+      margin-bottom: 48px;
+      p{
+        line-height: 28px;
+      }
+      
 
     }
   }
@@ -167,6 +222,14 @@ p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  ul{
+    li{
+      margin-top: 16px;
+      line-height: 33px;
+    }
+  }
 
 }
 
