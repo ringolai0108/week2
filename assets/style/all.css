@@ -188,7 +188,6 @@ h3, .bold-i24 {
   background-color: #000;
   color: #fff;
   font-weight: black;
-  font-style: italic;
   text-align: center; }
   .brand h2 {
     padding-top: 56px;
@@ -198,17 +197,29 @@ h3, .bold-i24 {
     margin-bottom: 68px; }
     .brand ul li {
       line-height: 1.5; }
-  .brand .brand_img1 {
-    margin-bottom: 40px; }
-  .brand .b_img23 {
+  .brand .brand_imggroup {
+    width: 1200px;
+    margin-bottom: 160px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 160px; }
-    .brand .b_img23 .b_img2 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch; }
+    .brand .brand_imggroup .b_img01 {
+      margin-bottom: 40px; }
+    .brand .brand_imggroup .b_img02 {
       margin-right: 24px; }
 
 .otherwork {
@@ -230,7 +241,6 @@ h3, .bold-i24 {
   .otherwork h2 {
     margin-top: 56px; }
   .otherwork ul {
-    margin-top: 16px;
     margin-bottom: 56px; }
     .otherwork ul li {
       line-height: 1.5; }
